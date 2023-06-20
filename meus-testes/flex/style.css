@@ -1,0 +1,54 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.container{
+    border: 3px solid red;
+    width: 640px;
+    height: 480px;
+    background: #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.itens{
+    border: 1px solid blue;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.miolo{
+    border: 1px solid rgb(255, 0, 255);
+    width: 60px;
+    height: 60px;
+}
+
+.container:hover{
+    background-color: grey;
+    transition: 0.8s;
+}
+
+
+.itens:hover{
+    background-color: blue;
+    transition: 0.8s;
+}
+
+
+.miolo:hover{
+    background-color: rgb(255, 0, 255);
+    transition: 0.8s;
+}
+

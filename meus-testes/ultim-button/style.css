@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    background: rgb(243, 177, 177);
+    width: 480px;
+    height: 240px;
+}
+

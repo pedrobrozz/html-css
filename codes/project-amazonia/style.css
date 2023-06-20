@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(images/body-image.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    background-color: antiquewhite;
+    max-width: 700px;
+    min-width: 350px;
+}

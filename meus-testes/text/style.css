@@ -70,7 +70,13 @@ p{
 
 .proxima-pagina{
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    
 }
 
 

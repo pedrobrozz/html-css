@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: url(imagens/imagem-body.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+
