@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 450px;
+    height: 450px;
+    border: 2px solid red;
+}
+
+.box{
+    background-color: rgb(151, 151, 151);
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+
+    flex-basis: 120px;
+}
+
+#item1{
+    flex-grow: 1;
+    order: 2;
+}
+
+#item2{
+    flex-shrink: 3;
+    order: 1;
+}
+
+#item3{
+    order: 3;
+}
+
